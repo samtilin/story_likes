@@ -12,4 +12,14 @@ require 'pry'
 
 # store the input in a variable
 
+def display_story(x,y)
+	puts  "On the story called #{x} you rated #{y} out of 10"
+end
+
+puts "What is the story's title?"
+user_title = gets.strip
+
+puts "What is your rating out of 10?"
+user_rating = gets.strip
+
 display_story(user_title, user_rating)
